@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('landing');
+	$thankyou = "";
+    return view('landing',compact('thankyou'));
 });
 
 /*
@@ -26,3 +27,12 @@ Route::get('/', function () {
 |
 */
 
+
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
+
+    Route::get('/home', 'HomeController@index');
+});
+
+Route::get('getEmails',['middleware'=>['web','isAdmin'],'uses'=> 'EmailController@getEmails']);
+Route::post('createEmail', 'EmailController@createEmail');

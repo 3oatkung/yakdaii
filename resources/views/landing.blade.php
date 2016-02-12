@@ -46,7 +46,9 @@
       
 	</head>
 	<body class="particles">
-  
+      @if($thankyou=="Yes")
+        <h3 style="text-align: center; color:grey;">ขอบคุณสำหรับความสนใจ :)</h3>
+      @endif
 	      <!-- Preloader -->
          <div id="loader-wrapper">
              <div id="loader"></div>
@@ -68,7 +70,7 @@
                                  <div class="col-md-12">
                                  
                                        <!-- Logo -->
-                                       <div class="logo"><a title="" href="#">Yakdai</a></div>
+                                       <div class="logo"><a title="" href="#">Yakdaii</a></div>
                                        <!-- Logo End -->
                      
                                        <!-- Menu -->
@@ -205,9 +207,8 @@
                                              <!-- Heading End -->
                                              
                                              <!-- Subscribe Form -->
-                                             <form id="newsletter-form" class="clearfix">
-                                                <input type="email" name="mc-email" id="mc-email" class="input-field form-control" placeholder="อีเมลล์ของคุณ">
-                                                <label class="subscribe-message"></label>
+                                             <form id="" action="/createEmail" method="post" class="clearfix">
+                                                <input type="email" name="email" id="email" class="input-field form-control" placeholder="อีเมลล์ของคุณ">
                                                 <input type="submit" value="สนับสนุนเรา" name="subscribe-submit" class="submit">
                                              </form>                                            
                                              <!-- Subscribe Form End -->
