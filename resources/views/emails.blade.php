@@ -1,5 +1,6 @@
-<table>
+<table border="1">
 <tr>
+	<th>No<th>
 	<th>email</th>
 </tr>
 
