@@ -3,6 +3,7 @@
    <head>
    	
          <meta charset="utf-8" />
+         <meta name="google-site-verification" content="2dfJU_D9RNJfYrHcoij1ckCqJSK7BC3IXx1eX_jF7eA" />
   		
          <title>อยากได้ - เราจะตอบสนอง "ทุกความอยาก" ของคุณ</title>						
          <meta name="description" content="" />
@@ -70,7 +71,6 @@
                                  <div class="col-md-12">
                                  
                                        <!-- Logo -->
-                                       <div class="logo"><a title="" href="#">Yakdaii</a></div>
                                        <!-- Logo End -->
                      
                                        <!-- Menu -->
@@ -107,13 +107,14 @@
                                  
                                  <div class="col-md-12">
                                     
-                                       <!-- Intro Heading -->
+                                                                           <!-- Intro Heading -->
                                        <div class="headline">
                                           <h1 class="wow fadeInDown" style="color:white;" >ที่ "อยากได้"</h1>
                                           <h3 class="wow fadeInDown" style="color:white;" data-wow-delay="0.5s">เราสร้างระบบ เพื่อ ผู้จ้างงาน และ ฟรีแลนซ์ เพราะเราเชื่อว่าทุกคนควรจะได้รับ <u>สิ่งที่ดีที่สุด</u> </h3>
                                           <p class="wow fadeInDown" data-wow-delay="0.5s" style="color:white;" >ไม่ว่าจะเป็น ผู้จ้างงาน <u>"อยากได้"</u> ฟรีแลนซ์ <br>หรือ ฟรีแลนซ์ <u>"อยากได้"</u> ผู้จ้างงาน <br><br>เราจะตอบสนอง <u>"ความอยาก"</u> เหล่านี้ให้กับคุณ</p>
                                        </div>
                                        <!-- Intro Heading End -->
+                                
                                  </div>
                            
                            
